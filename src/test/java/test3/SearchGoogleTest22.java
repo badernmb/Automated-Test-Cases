@@ -37,9 +37,9 @@ public class SearchGoogleTest22 {
 	}
 
 	@Test
-	public void testGoogleSearch2()  {
+	public void testGoogleSearch2()  { 
 		googlePage = new Google(driver);
-		searchPage = googlePage.goToSearchPage2();
+		searchPage = googlePage.goToSearchPage();
 		searchPage.getNumberOfResults2();
 	}
 }
